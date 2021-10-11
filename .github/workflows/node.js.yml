@@ -27,5 +27,5 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: cp src docs/
+    - run: cp -r src docs/
     - run: npm test
