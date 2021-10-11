@@ -4,7 +4,7 @@
     "description": "Techinical test for dp6",
     "main": "index.js",
     "scripts": {
-        "start": "browser-sync start --server 'docs' --files 'src'",
+        "start": "browser-sync start --server 'docs' --files 'docs'",
         "server": "browser-sync start --port 8080 --server docs --no-open",
         "cypress": "cypress run --config pageLoadTimeout=10000,baseUrl=http://localhost:8080",
         "test": "run-p -r server cypress"
